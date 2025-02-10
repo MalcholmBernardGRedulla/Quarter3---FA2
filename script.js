@@ -12,23 +12,23 @@ function calculate(operator) {
     switch (operator) {
         case '+':
             result = num1 + num2;
-            message = `The sum is ${result}.`;
+            message = "The sum of " + num1 + " and " + num2 + " is " + result + ".";
             break;
         case '-':
             result = num1 - num2;
-            message = `The difference is ${result}.`;
+            message = "The difference of " + num1 + " and " + num2 + " is " + result + ".";
             break;
         case '*':
             result = num1 * num2;
-            message = `The product is ${result}.`;
+            message = "The product of " + num1 + " and " + num2 + " is " + result + ".";
             break;
         case '/':
             result = num2 !== 0 ? num1 / num2 : "Cannot divide by zero";
-            message = `The quotient is ${result}.`;
+            message = "The quotient of " + num1 + " and " + num2 + " is " + result + ".";
             break;
         case '%':
             result = num2 !== 0 ? num1 % num2 : "Cannot divide by zero";
-            message = `The remainder is ${result}.`;
+            message = "The remainder of " + num1 + " and " + num2 + " is " + result + ".";
             break;
     }
 
